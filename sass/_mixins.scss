@@ -1,0 +1,10 @@
+@mixin estilo-boton($fondo, $color-texto) {
+  padding: 12px 25px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+  background-color: $fondo;
+  color: $color-texto;
+  transition: 0.3s ease;
+}
